@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.information.retrieval</groupId>
+  <artifactId>RIFinalProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    
+    <lucene.version>9.10.0</lucene.version>
+  </properties>
+  
+  
+  <dependencies>
+	
+    <dependency>
+  	  <groupId>org.apache.lucene</groupId>
+  	  <artifactId>lucene-core</artifactId>
+  	  <version>${lucene.version}</version>
+	</dependency>
+
+    
+    <dependency>
+  	  <groupId>org.apache.lucene</groupId>
+  	  <artifactId>lucene-analysis-common</artifactId>
+  	  <version>${lucene.version}</version>
+	</dependency>
+    
+	
+	<dependency>
+  	  <groupId>org.apache.lucene</groupId>
+  	  <artifactId>lucene-queryparser</artifactId>
+  	  <version>${lucene.version}</version>
+	</dependency>
+	
+	<dependency>  
+	  <groupId>com.ironsoftware</groupId>  
+	  <artifactId>ironpdf</artifactId>  
+	  <version>2024.3.1</version>
+	</dependency>
+	
+  </dependencies>
+  
+</project>
